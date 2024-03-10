@@ -5,7 +5,7 @@ const  Footer =()=> {
   return (
     <>
     <footer className=" flex flex-wrap text-center justify-betweentext-center justify-between" >
-    <ul class=" flex  justify-between p-8">
+    <ul class=" flex flex-wrap text-center justify-between">
                     <li class="list-none flex ">
                         <a href="#" class=" text-white text-xl p-4" >خانه رویایی خود را پیدا کنید</a >
                     </li>
