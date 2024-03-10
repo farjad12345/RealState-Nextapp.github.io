@@ -4,7 +4,7 @@ import { useState } from 'react';
 const  Footer =()=> {  
   return (
     <>
-    <footer className="  bg-secondry flex-row text-center flex-wrap flex-wrap px-24" >
+    <footer className="  bg-secondry flex-row text-center flex-wrap  px-24" >
     <ul class=" flex  justify-between">
                     <li class="list-none flex j gap-4 ">
                         <a href="#" class=" text-white text-xl" >خانه رویایی خود را پیدا کنید</a >
