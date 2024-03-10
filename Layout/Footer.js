@@ -13,13 +13,13 @@ const  Footer =()=> {
                         <a href="#" class=" text-white text-xl ">درخواست پروپوزال</a>
                     </li>
                     <li class="list-none text-sm">
-                        <a href="#" class=" text-white text-xl mx-4">برنامه اجاره خانه ها</a>
+                        <a href="#" class=" text-white text-xl ">برنامه اجاره خانه ها</a>
                     </li>
                     <li class="list-none text-sm">
-                        <a href="#" class=" text-white text-xl mx-4">با ما تماس بگیرید</a>
+                        <a href="#" class=" text-white text-xl">با ما تماس بگیرید</a>
                     </li>
                     <li class="list-none text-sm">
-                        <a href="#" class=" text-white text-xl mx-4">ملک خود را ارسال کنید</a>
+                        <a href="#" class=" text-white text-xl ">ملک خود را ارسال کنید</a>
                     </li>
 
                 </ul>
