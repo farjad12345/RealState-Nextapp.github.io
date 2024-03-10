@@ -36,23 +36,23 @@ function Gallery() {
         <img src="img/gal-2.jpeg" alt="House 6" class="card__img" />
         <h5 class="card__title">آپارتمان خانوادگی مدرن</h5>
         <svg class="card__like">
-           <div> xlink:href="img/sprite.svg#icon-heart-full"</div> 
+             xlinkHref="img/sprite.svg#icon-heart-full" 
         </svg>
         <div class="card__details">
             <svg class="card__icon">
-             <div>   xlink:href="img/sprite.svg#icon-map-pin"</div> 
+                xlinkHref="img/sprite.svg#icon-map-pin" 
             </svg>
             <p class="card__text">مالدیو</p>
 
-            <svg class="card__icon">   xlink:href="img/sprite.svg#icon-profile-male" </svg>
+            <svg class="card__icon">   xlinkHref="img/sprite.svg#icon-profile-male" </svg>
             <p class="card__text">4 اتاق</p>
 
             <svg class="card__icon">
-                <span xlink:href="img/sprite.svg#icon-expand"></span>
+                <span xlinkHref="img/sprite.svg#icon-expand"></span>
             </svg>
             <p class="card__text">400 متر مربع</p>
 
-            <svg class="card__icon"> xlink:href="img/sprite.svg#icon-key" </svg>
+            <svg class="card__icon"> xlinkHref="img/sprite.svg#icon-key" </svg>
             <p class="card__text">560 میلیون تومان</p>
         </div>
 
@@ -62,60 +62,28 @@ function Gallery() {
         <img src="img/gal-2.jpeg" alt="House 6" class="card__img" />
         <h5 class="card__title">آپارتمان خانوادگی مدرن</h5>
         <svg class="card__like">
-            <span xlink:href="img/sprite.svg#icon-heart-full"></span>
+            <span xlinkHref="img/sprite.svg#icon-heart-full"></span>
         </svg>
         <div class="card__details">
             <svg class="card__icon">
-                <span xlink:href="img/sprite.svg#icon-map-pin"></span>
-            </svg>
-            <p class="card__text">مالدیو</p>
-
-            <svg class="card__icon">
-                <use
-                    xlink:href="img/sprite.svg#icon-profile-male"
-                ></use>
-            </svg>
-            <p class="card__text">4 اتاق</p>
-
-            <svg class="card__icon">
-                <use xlink:href="img/sprite.svg#icon-expand"></use>
-            </svg>
-            <p class="card__text">400 متر مربع</p>
-
-            <svg class="card__icon">
-                <use xlink:href="img/sprite.svg#icon-key"></use>
-            </svg>
-            <p class="card__text">560 میلیون تومان</p>
-        </div>
-
-        <a href="singleHouse.html" class="btn btn-brown btn-card">مشاهده ملک</a>
-    </div>
-    <div class="card">
-        <img src="img/gal-2.jpeg" alt="House 6" class="card__img" />
-        <h5 class="card__title">آپارتمان خانوادگی مدرن</h5>
-        <svg class="card__like">
-            <use xlink:href="img/sprite.svg#icon-heart-full"></use>
-        </svg>
-        <div class="card__details">
-            <svg class="card__icon">
-                <use xlink:href="img/sprite.svg#icon-map-pin"></use>
+                <span xlinkHref="img/sprite.svg#icon-map-pin"></span>
             </svg>
             <p class="card__text">مالدیو</p>
 
             <svg class="card__icon">
                 <use
-                    xlink:href="img/sprite.svg#icon-profile-male"
+                    xlinkHref="img/sprite.svg#icon-profile-male"
                 ></use>
             </svg>
             <p class="card__text">4 اتاق</p>
 
             <svg class="card__icon">
-                <use xlink:href="img/sprite.svg#icon-expand"></use>
+                <use xlinkHref="img/sprite.svg#icon-expand"></use>
             </svg>
             <p class="card__text">400 متر مربع</p>
 
             <svg class="card__icon">
-                <use xlink:href="img/sprite.svg#icon-key"></use>
+                <use xlinkHref="img/sprite.svg#icon-key"></use>
             </svg>
             <p class="card__text">560 میلیون تومان</p>
         </div>
@@ -126,28 +94,28 @@ function Gallery() {
         <img src="img/gal-2.jpeg" alt="House 6" class="card__img" />
         <h5 class="card__title">آپارتمان خانوادگی مدرن</h5>
         <svg class="card__like">
-            <use xlink:href="img/sprite.svg#icon-heart-full"></use>
+            <use xlinkHref="img/sprite.svg#icon-heart-full"></use>
         </svg>
         <div class="card__details">
             <svg class="card__icon">
-                <use xlink:href="img/sprite.svg#icon-map-pin"></use>
+                <use xlinkHref="img/sprite.svg#icon-map-pin"></use>
             </svg>
             <p class="card__text">مالدیو</p>
 
             <svg class="card__icon">
                 <use
-                    xlink:href="img/sprite.svg#icon-profile-male"
+                    xlinkHref="img/sprite.svg#icon-profile-male"
                 ></use>
             </svg>
             <p class="card__text">4 اتاق</p>
 
             <svg class="card__icon">
-                <use xlink:href="img/sprite.svg#icon-expand"></use>
+                <use xlinkHref="img/sprite.svg#icon-expand"></use>
             </svg>
             <p class="card__text">400 متر مربع</p>
 
             <svg class="card__icon">
-                <use xlink:href="img/sprite.svg#icon-key"></use>
+                <use xlinkHref="img/sprite.svg#icon-key"></use>
             </svg>
             <p class="card__text">560 میلیون تومان</p>
         </div>
@@ -158,28 +126,28 @@ function Gallery() {
         <img src="img/gal-2.jpeg" alt="House 6" class="card__img" />
         <h5 class="card__title">آپارتمان خانوادگی مدرن</h5>
         <svg class="card__like">
-            <use xlink:href="img/sprite.svg#icon-heart-full"></use>
+            <use xlinkHref="img/sprite.svg#icon-heart-full"></use>
         </svg>
         <div class="card__details">
             <svg class="card__icon">
-                <use xlink:href="img/sprite.svg#icon-map-pin"></use>
+                <use xlinkHref="img/sprite.svg#icon-map-pin"></use>
             </svg>
             <p class="card__text">مالدیو</p>
 
             <svg class="card__icon">
                 <use
-                    xlink:href="img/sprite.svg#icon-profile-male"
+                    xlinkHref="img/sprite.svg#icon-profile-male"
                 ></use>
             </svg>
             <p class="card__text">4 اتاق</p>
 
             <svg class="card__icon">
-                <use xlink:href="img/sprite.svg#icon-expand"></use>
+                <use xlinkHref="img/sprite.svg#icon-expand"></use>
             </svg>
             <p class="card__text">400 متر مربع</p>
 
             <svg class="card__icon">
-                <use xlink:href="img/sprite.svg#icon-key"></use>
+                <use xlinkHref="img/sprite.svg#icon-key"></use>
             </svg>
             <p class="card__text">560 میلیون تومان</p>
         </div>
@@ -190,28 +158,60 @@ function Gallery() {
         <img src="img/gal-2.jpeg" alt="House 6" class="card__img" />
         <h5 class="card__title">آپارتمان خانوادگی مدرن</h5>
         <svg class="card__like">
-            <use xlink:href="img/sprite.svg#icon-heart-full"></use>
+            <use xlinkHref="img/sprite.svg#icon-heart-full"></use>
         </svg>
         <div class="card__details">
             <svg class="card__icon">
-                <use xlink:href="img/sprite.svg#icon-map-pin"></use>
+                <use xlinkHref="img/sprite.svg#icon-map-pin"></use>
+            </svg>
+            <p class="card__text">مالدیو</p>
+
+            <svg class="card__icon">
+                <use
+                    xlinkHref="img/sprite.svg#icon-profile-male"
+                ></use>
+            </svg>
+            <p class="card__text">4 اتاق</p>
+
+            <svg class="card__icon">
+                <use xlinkHref="img/sprite.svg#icon-expand"></use>
+            </svg>
+            <p class="card__text">400 متر مربع</p>
+
+            <svg class="card__icon">
+                <use xlinkHref="img/sprite.svg#icon-key"></use>
+            </svg>
+            <p class="card__text">560 میلیون تومان</p>
+        </div>
+
+        <a href="singleHouse.html" class="btn btn-brown btn-card">مشاهده ملک</a>
+    </div>
+    <div class="card">
+        <img src="img/gal-2.jpeg" alt="House 6" class="card__img" />
+        <h5 class="card__title">آپارتمان خانوادگی مدرن</h5>
+        <svg class="card__like">
+            <use xlinkHref="img/sprite.svg#icon-heart-full"></use>
+        </svg>
+        <div class="card__details">
+            <svg class="card__icon">
+                <use xlinkHref="img/sprite.svg#icon-map-pin"></use>
             </svg>
             <p class="card__text">مالدیو</p>
 
             <svg class="card__icon m-4">
                 <use
-                    xlink:href="img/sprite.svg#icon-profile-male"
+                    xlinkHref="img/sprite.svg#icon-profile-male"
                 ></use>
             </svg>
             <p class="card__text">4 اتاق</p>
 
             <svg class="card__icon m-4">
-                <div xlink:href="img/sprite.svg#icon-expand"></div>
+                <div xlinkHref="img/sprite.svg#icon-expand"></div>
             </svg>
             <p class="card__text">400 متر مربع</p>
 
             <svg class="card__icon">
-                <div xlink:href="img/sprite.svg#icon-key"></div>
+                <div xlinkHref="img/sprite.svg#icon-key"></div>
             </svg>
             <p class="card__text">560 میلیون تومان</p>
         </div>

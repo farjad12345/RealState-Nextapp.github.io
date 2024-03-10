@@ -10,20 +10,22 @@ const  Header =()=> {
   
   return (
     <>
-    <header className="w-full bg-primary flex flex-col" >
+    <header className="flex px-4 w-full  bg-primary  flex-col " >
       {(isVisible) ?
-       ( <button onClick={toggleMenu} className="flex  w-full justify-end min-height-20 bg-primary  text-white p-4 ">
+       ( <button onClick={toggleMenu} className="  w-full flex  justify-end min-height-20 bg-primary  text-white p-4 ">
 
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
           </svg>
-        </button> ): 
-        ( <><button onClick={toggleMenu} className="  flex w-full justify-end min-height-20 bg-primary  text-white p-4 ">
+        </button>
+         ): 
+        ( <>
+            <button onClick={toggleMenu} className="  flex w-full justify-end min-height-20 bg-primary float-end text-white p-4 ">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
               </svg>
             </button>
-            <ul className='  transition-all w-full left-2/4 -translate-x-1/2 bg-secondry text-center text-sm items-center  h-full'>
+            <ul className='w-full left-2/4  bg-secondry text-center text-sm  h-full'>
               <li className='mb-20 mt-20 text-white w-40 px-8 py-4 bg-primary mx-auto list-none  text-center'><a href=''>صفحه اصلی</a></li>
               <li className='mb-20  w-40  px-8 py-4 bg-primary mx-auto list-none text-center'><a href=''>ویژگی ها</a> </li>
               <li className='mb-20  w-40  px-8 py-4 bg-primary mx-auto list-none text-center'><a href=''>نظرات</a></li>
@@ -32,6 +34,7 @@ const  Header =()=> {
             </ul>
           </>
         )}
+        </header>
         
 
       <div className=" flex bg-cover  bg-linearGradient  flex-col ">
@@ -42,7 +45,7 @@ const  Header =()=> {
               width={120}
               height={32}
               alt="Picture of the author"
-              />
+            />
           </div>
           <div className="px-8 flex justify h-64 flex-col w-full text-xs">
             <h3 className="w-full text-right text-primary text-xl color-primary1">:خانه خودتان </h3>
@@ -58,12 +61,11 @@ const  Header =()=> {
         </div>
       </div>
       <div className="flex  flex-col items-center text-primary text-2xl bg-secondry ">
+
           <Card />
 
-        {/* </div> */}
+        </div>
       
-      </div>
-              </header>
   </>
   )
 }

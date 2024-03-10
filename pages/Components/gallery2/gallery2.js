@@ -11,13 +11,13 @@ function Gallery2() {
         alt="Picture"
       />
       <p className="text-center  text-white mx-auto bg-secondry px-8 py-4 leading-4 h-12 " >آپارتمان خانوادگی مدرن </p>
-      <div className="w-full bg-graylight-1 flex-col flex gap-8 h-48   justify-between p-4	">
+      <div className="w-full bg-graylight-1 flex-col flex gap-8 h-48    p-4	">
         <div className="mt-8 mx-auto flex  justify-between w-full">
           <div>مالدیو</div>
           <div>اتاق ۴</div>
         </div>
-        <div className=" flex  justify-between w-full">
-          <div>    مترمربع  </div> <span>۸۰۰</span>
+        <div className=" flex  text-right justify-between w-full">
+          <div>    هشتصد متر مربع </div>
           <div>       قیمت ۵۰۰ میلیون </div>
         </div>
       </div>
